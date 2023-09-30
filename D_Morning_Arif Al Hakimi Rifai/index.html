@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TugasHtml&Css</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- JS -->
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar">
+    <h1 class="logo">Logo</h1>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="icon">
+      <ul>
+        <li><i data-feather="settings"></i></li>
+        <li><i data-feather="search"></i></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+  <!-- home section start -->
+  <section id="home">
+    <div class="home">
+      <div class="card">
+        <div class="img-home">
+          <img src="pp1.jpeg" alt="personal picture">
+        </div>
+        <div class="card1">
+          <h4>Hai, saya</h4>
+          <h1>ARIF AL HAKIMI RIFAI</h1>
+          <p>Full Stack Developer</p>
+          <button>Download CV</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- home section end -->
+  <!-- about section start -->
+  <section id="about">
+    <div class="about">
+      <h1>About</h1>
+      <div class="card">
+        <div class="img-about">
+          <img src="pp1.jpeg" alt="personal picture">
+        </div>
+        <div class="card1">
+          <h1>UI/UX Designer & Web Developer</h1>
+          <p>Hai, saya seorang mahasiswa dari Institut Teknologi Telkom Purwokerto, Indonesia. Sekarang saya sedang
+            belajar web full stack development di Infinite Learning.</p>
+          <div class="row">
+            <div class="text1">
+              <h4>Visi</h4>
+              <ul>
+                <li>Masuk surga</li>
+                <li>Membahagiakan orang tua</li>
+                <li>bisa jadi orang</li>
+              </ul>
+            </div>
+            <div class="text2">
+              <h4>Misi</h4>
+              <ul>
+                <li>Belajar</li>
+                <li>Belajar</li>
+                <li>Belajar</li>
+              </ul>
+            </div>
+          </div>
+          <div class="icon-about">
+            <ul>
+              <li><i data-feather="calendar"></i> 20 Mei 2003</li>
+              <li><i data-feather="phone"></i> (+62) 896 4770 6463</li>
+              <li><i data-feather="mail"></i> 21104039@ittelkom-pwt.ac.id</li>
+              <li><i data-feather="home"></i> Serpong, Tangerang Selatan, Banten, Indonesia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about end -->
+  <!-- skil start -->
+  <section id="skills" class="content">
+    <h2>My Skill</h2>
+    <div class="skills-container">
+      <div class="skills-column">
+        <div class="skill">
+          <h3>HTML</h3>
+          <div class="skill-level">
+            <div class="skill-bar html"></div>
+            <span>40%</span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <div class="skill-level">
+            <div class="skill-bar css"></div>
+            <span>30%</span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Javascript</h3>
+          <div class="skill-level">
+            <div class="skill-bar js"></div>
+            <span>5%</span>
+          </div>
+        </div>
+      </div>
+      <div class="skills-column">
+        <div class="skill">
+          <h3>React</h3>
+          <div class="skill-level">
+            <div class="skill-bar react"></div>
+            <span>0%</span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>PHP</h3>
+          <div class="skill-level">
+            <div class="skill-bar php"></div>
+            <span>60%</span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>SQL</h3>
+          <div class="skill-level">
+            <div class="skill-bar sql"></div>
+            <span>65%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skil end -->
+
+  <!-- contact start -->
+  <section id="contact" class="content">
+    <h2>Contact</h2>
+    <div class="contact-container">
+      <!-- Formulir Kontak -->
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Pesan:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+
+      <!-- Peta Google Maps -->
+      <div class="map-container">
+        <!-- Ganti "YOUR_API_KEY" dengan kunci API Google Maps Anda -->
+        <iframe width="100%" height="400" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7931.065483092226!2d106.65944698804158!3d-6.3249316610845705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-6.3284560999999995!2d106.66584089999999!4m5!1s0x2e69e4c337313865%3A0x63b6531b5bea418c!2sPasar%20Serpong%2C%20Jalan%20Raya%20Serpong%2C%20Serpong%2C%20Kota%20Tangerang%20Selatan%2C%20Banten!3m2!1d-6.3214634!2d106.66394799999999!5e0!3m2!1sid!2sid!4v1695998881046!5m2!1sid!2sid"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- contact end -->
+
+  <footer>
+    <div class="container">
+      <div class="button">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+      <div class="text">
+        <a class="text-footer" href="#">Privacy</a>
+        <span class="">|</span>
+        <a class="text-footer" href="#">Terms</a>
+        <span class="">|</span>
+        <a class="text-footer" href="#">FAQs</a>
+        <span class="">|</span>
+        <a class="text-footer" href="#">Help</a>
+      </div>
+      <p class="copy">&copy; <a class="text-footer" href="#">Domain Name</a>. All Rights Reserved.
+        Designed by <a class="text-footer" href="https://github.com/Arifalhakimi/webprofile_Arif">ARIF AL HAKIMI RIFAI</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- feather icon -->
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>
